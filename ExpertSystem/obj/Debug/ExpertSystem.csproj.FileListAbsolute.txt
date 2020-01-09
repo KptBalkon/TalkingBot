@@ -1,0 +1,14 @@
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\bin\Debug\topics.json
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\bin\Debug\ExpertSystem.exe.config
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\bin\Debug\ExpertSystem.exe
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\bin\Debug\ExpertSystem.pdb
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\obj\Debug\ExpertSystem.csprojAssemblyReference.cache
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\obj\Debug\ExpertSystem.Form1.resources
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\obj\Debug\ExpertSystem.Properties.Resources.resources
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\obj\Debug\ExpertSystem.csproj.GenerateResource.cache
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\obj\Debug\ExpertSystem.csproj.CoreCompileInputs.cache
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\obj\Debug\ExpertSystem.csproj.CopyComplete
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\obj\Debug\ExpertSystem.exe
+C:\Users\KptBalkon\source\repos\ExpertSystem\ExpertSystem\obj\Debug\ExpertSystem.pdb

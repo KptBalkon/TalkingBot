@@ -1,0 +1,197 @@
+{
+  "Topics": [
+    {
+      "Name": "Universal",
+      "Responses": [
+        {
+          "Pattern": "*",
+          "Templates": [
+            "I don't know what to say.",
+            "No idea."
+          ],
+          "Priority": -999
+        },
+        {
+          "Pattern": "* *",
+          "Templates": [
+            "I think so too"
+          ],
+          "Priority": -999
+        },
+        {
+          "Pattern": "* * *",
+          "Templates": [
+            "I like these three words"
+          ],
+          "Priority": -999
+        },
+        {
+          "Pattern": "* * * *",
+          "Templates": [
+            "Four words to live by."
+          ],
+          "Priority": -999
+        },
+        {
+          "Pattern": "* * * * *",
+          "Templates": [
+            "Inspirational five words"
+          ],
+          "Priority": -999
+        },
+        {
+          "Pattern": "* * * * * *",
+          "Templates": [
+            "These six words do speak volumes"
+          ],
+          "Priority": -999
+        },
+        {
+          "Pattern": "Do i like *",
+          "Templates": [
+            "Yes, you like *"
+          ],
+          "Requires": [ "likes_*" ]
+        },
+        {
+          "Pattern": "Do i like *",
+          "Templates": [
+            "No, you don't like *"
+          ],
+          "Requires": [ "dislikes_*" ]
+        },
+        {
+          "Pattern": "I like *",
+          "Templates": [
+            "Oh, so you like *"
+          ],
+          "Learn": [ "likes_*" ]
+        },
+        {
+          "Pattern": "I dislike *",
+          "Templates": [
+            "Oh, so you dislike *"
+          ],
+          "Learn": [ "dislikes_*" ]
+        },
+        {
+          "Pattern": "Let's talk about coffee",
+          "Templates": [
+            "Dude, i love coffee! Let's do it."
+          ],
+          "Topic": "Coffee"
+        },
+        {
+          "Pattern": "Let's talk about tea",
+          "Templates": [
+            "I prefer coffee, but ok, let's talk about tea."
+          ],
+          "Topic": "Tea"
+        },
+        {
+          "Pattern": "Let's talk about *",
+          "Templates": [
+            "Shame, i know nothing about *."
+          ],
+          "Topic": "Universal"
+        },
+        {
+          "Pattern": "You never heard of coffee",
+          "Templates": [
+            "Of course i did. Let's talk about coffee."
+          ],
+          "Topic": "Coffee"
+        },
+        {
+          "Pattern": "You never heard of tea",
+          "Templates": [
+            "Of course i did. Let's talk about tea."
+          ],
+          "Topic": "Tea"
+        },
+        {
+          "Pattern": "You ever heard of coffee",
+          "Templates": [
+            "Of course i did. Let's talk about coffee."
+          ],
+          "Topic": "Coffee"
+        },
+        {
+          "Pattern": "You ever heard of tea",
+          "Templates": [
+            "Of course i did. Let's talk about tea."
+          ],
+          "Topic": "Tea"
+        },
+        {
+          "Pattern": "Wanna talk about * or *",
+          "Templates": [
+            "Ugh, i know nothing about * nor *."
+          ],
+          "Topic": "Universal"
+        },
+        {
+          "Pattern": "Wanna talk about *",
+          "Templates": [
+            "Ugh, i know nothing about *."
+          ],
+          "Topic": "Universal"
+        },
+        {
+          "Pattern": "Let's discuss *",
+          "Templates": [
+            "I never heard of *. I'm just a bot."
+          ],
+          "Topic": "Universal"
+        }
+      ]
+    },
+    {
+      "Name": "Coffee",
+      "Responses": [
+        {
+          "Pattern": "Do you like coffee?",
+          "Templates": [
+            "I do!",
+            "I really do!",
+            "Oh yeah, too much!"
+          ]
+        },
+        {
+          "Pattern": "I like my coffee with * and *",
+          "Templates": [ "I don't like * in my coffee" ],
+          "Learn": [ "likes_coffee_with", "likes_coffee_with" ]
+        },
+        {
+          "Pattern": "What do you like with your coffee?",
+          "Templates": [
+            "I like my coffee with milk, and i know you like yours with <likes_coffee_with>",
+            "I add milk to my coffee. You prefer <likes_coffee_with> don't you?"
+          ],
+          "Requires": [ "likes_coffee_with" ]
+        },
+        {
+          "Pattern": "What do you like with your coffee?",
+          "Templates": [
+            "I like my coffee with milk",
+            "I add milk to my coffee."
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Tea",
+      "Responses": [
+        {
+
+        },
+        {
+
+        },
+        {
+
+        }
+      ]
+    }
+  ]
+}
